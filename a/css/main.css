@@ -20,13 +20,15 @@ body {
 
 .container {
     position: relative;
-    padding-top: 150px;
     width: 90%;
-    max-width: 1110px;
+    max-width: 600px;
+    top: 20%;
     left: 0;
     right: 0;
     margin: 0 auto;
+    z-index: 250;
 }
+
 
 h1 {
     font-family: Helvetica, Arial, sans-serif;
@@ -59,7 +61,7 @@ h2  {
 @media screen and (min-width: 750px) {
 
     .container {
-        width: 100%
+        width: 600px;
     }
 
     h1 {
